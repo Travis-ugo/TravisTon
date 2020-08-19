@@ -12,6 +12,7 @@ async def main():
    print(username)
    print(me.phone)
 
+
    async for dialog in Client.iter_dialogs():
       print(dialog.name, 'has ID', dialog.id)
 
